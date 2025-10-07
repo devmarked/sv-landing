@@ -1,6 +1,14 @@
 <script lang="ts">
 	import { Hero, ProjectCard, WorkHistory } from '$lib';
 	import type { Project } from '$lib';
+	import FeedImage from '$lib/assets/feed.png';
+	import OpoosImage from '$lib/assets/opoos.png';
+	import TaskImage from '$lib/assets/task.png';
+	import WeatherImage from '$lib/assets/weather.png';
+	import ChatImage from '$lib/assets/chat.png';
+	import VotingImage from '$lib/assets/voting.png';
+	import BlogImage from '$lib/assets/blog.png';
+	import DoodleImage from '$lib/assets/doodle.png';
 
 	const demoProjects: Project[] = [
 		{
@@ -17,9 +25,9 @@
 				'Shadcn UI',
 				'Magic UI'
 			],
-			liveUrl: 'https://feedbackiq-smart.vercel.app/',
-			githubUrl: 'https://github.com/yourusername/feedbackiq',
-			imageUrl: '/src/lib/assets/feed.png'
+		liveUrl: 'https://feedbackiq-smart.vercel.app/',
+		githubUrl: 'https://github.com/yourusername/feedbackiq',
+		imageUrl: FeedImage
 		},
 		{
 			id: '2',
@@ -36,9 +44,9 @@
 				'OpenAI',
 				'n8n'
 			],
-			liveUrl: 'https://opoos.vercel.app/',
-			githubUrl: 'https://github.com/yourusername/opoos',
-			imageUrl: '/src/lib/assets/opoos.png'
+		liveUrl: 'https://opoos.vercel.app/',
+		githubUrl: 'https://github.com/yourusername/opoos',
+		imageUrl: OpoosImage
 		}
 	];
 
@@ -48,50 +56,50 @@
 			title: 'Todo App',
 			description:
 				'A simple todo application with add, edit, delete, and filter functionality. Perfect for learning Svelte state management.',
-			technologies: ['Svelte 5', 'TypeScript', 'Tailwind CSS'],
-			liveUrl: 'https://sv-task.vercel.app/',
-			githubUrl: 'https://github.com/devmarked/sv-task',
-			imageUrl: '/src/lib/assets/task.png'
+		technologies: ['Svelte 5', 'TypeScript', 'Tailwind CSS'],
+		liveUrl: 'https://sv-task.vercel.app/',
+		githubUrl: 'https://github.com/devmarked/sv-task',
+		imageUrl: TaskImage
 		},
 		{
 			id: 'svelte-2',
 			title: 'Weather Dashboard',
 			description:
 				'Real-time weather information with location search and forecasts. Shows Svelte reactivity in action.',
-			technologies: ['Svelte 5', 'TypeScript', 'OpenWeather API', 'Tailwind CSS'],
-			liveUrl: 'https://sv-weather-five.vercel.app/',
-			githubUrl: 'https://github.com/devmarked/sv-weather',
-			imageUrl: '/src/lib/assets/weather.png'
+		technologies: ['Svelte 5', 'TypeScript', 'OpenWeather API', 'Tailwind CSS'],
+		liveUrl: 'https://sv-weather-five.vercel.app/',
+		githubUrl: 'https://github.com/devmarked/sv-weather',
+		imageUrl: WeatherImage
 		},
 		{
 			id: 'svelte-3',
 			title: 'Chat',
 			description:
 				'Real-time chat application with rooms and message history. Demonstrates WebSocket integration.',
-			technologies: ['Svelte 5', 'TypeScript', 'Tailwind CSS'],
-			liveUrl: 'https://sv-chat.vercel.app/',
-			githubUrl: 'https://github.com/devmarked/sv-chat',
-			imageUrl: '/src/lib/assets/chat.png'
+		technologies: ['Svelte 5', 'TypeScript', 'Tailwind CSS'],
+		liveUrl: 'https://sv-chat.vercel.app/',
+		githubUrl: 'https://github.com/devmarked/sv-chat',
+		imageUrl: ChatImage
 		},
 		{
 			id: 'svelte-4',
 			title: 'Voting',
 			description:
 				'Interactive voting system with real-time updates. Shows advanced SvelteKit patterns.',
-			technologies: ['SvelteKit', 'WebSockets', 'TypeScript', 'Tailwind CSS'],
-			liveUrl: 'https://sv-voting.vercel.app/',
-			githubUrl: 'https://github.com/devmarked/sv-voting',
-			imageUrl: '/src/lib/assets/voting.png'
+		technologies: ['SvelteKit', 'WebSockets', 'TypeScript', 'Tailwind CSS'],
+		liveUrl: 'https://sv-voting.vercel.app/',
+		githubUrl: 'https://github.com/devmarked/sv-voting',
+		imageUrl: VotingImage
 		},
 		{
 			id: 'svelte-5',
 			title: 'Blog',
 			description:
 				'Simple blog application with markdown support and post management. Clean Svelte implementation.',
-			technologies: ['Svelte 5', 'TypeScript', 'Tailwind CSS'],
-			liveUrl: 'https://sv-md-blog.vercel.app/',
-			githubUrl: 'https://github.com/devmarked/sv-md-blog',
-			imageUrl: '/src/lib/assets/blog.png'
+		technologies: ['Svelte 5', 'TypeScript', 'Tailwind CSS'],
+		liveUrl: 'https://sv-md-blog.vercel.app/',
+		githubUrl: 'https://github.com/devmarked/sv-md-blog',
+		imageUrl: BlogImage
 		},
 		{
 			id: 'svelte-6',
@@ -107,9 +115,9 @@
 				'Supabase',
 				'Vercel'
 			],
-			liveUrl: 'https://doodlemation.vercel.app/',
-			githubUrl: 'https://github.com/devmarked/doodlemation',
-			imageUrl: '/src/lib/assets/doodle.png'
+		liveUrl: 'https://doodlemation.vercel.app/',
+		githubUrl: 'https://github.com/devmarked/doodlemation',
+		imageUrl: DoodleImage
 		}
 	];
 </script>
