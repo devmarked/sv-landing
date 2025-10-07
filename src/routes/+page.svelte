@@ -26,7 +26,7 @@
 				'Magic UI'
 			],
 		liveUrl: 'https://feedbackiq-smart.vercel.app/',
-		githubUrl: 'https://github.com/yourusername/feedbackiq',
+		githubUrl: 'https://github.com/devmarked/feedbackiq',
 		imageUrl: FeedImage
 		},
 		{
@@ -45,7 +45,7 @@
 				'n8n'
 			],
 		liveUrl: 'https://opoos.vercel.app/',
-		githubUrl: 'https://github.com/yourusername/opoos',
+		githubUrl: 'https://github.com/devmarked/opoos',
 		imageUrl: OpoosImage
 		}
 	];
