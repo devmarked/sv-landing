@@ -22,10 +22,12 @@ This website serves as both a professional portfolio and a learning documentatio
 ## Featured Projects
 
 ### Demo Projects (Next.js)
+
 - **FeedbackIQ**: Comprehensive survey platform with AI-powered insights
 - **Opoos**: Internal tool for sales teams and project managers
 
 ### Svelte Journey Projects
+
 - **Todo App**: Basic state management and CRUD operations
 - **Weather Dashboard**: API integration and real-time data
 - **Chat Application**: WebSocket integration and real-time messaging

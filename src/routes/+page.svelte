@@ -1,13 +1,22 @@
 <script lang="ts">
 	import { Hero, ProjectCard, WorkHistory } from '$lib';
 	import type { Project } from '$lib';
-	
+
 	const demoProjects: Project[] = [
 		{
 			id: '1',
 			title: 'FeedbackIQ',
-			description: 'FeedbackIQ is a comprehensive survey platform designed specifically for businesses to create, distribute, and analyze customer feedback with AI-powered insights.',
-			technologies: ['Next.js', 'TypeScript', 'PostgreSQL', 'Supabase', 'TailwindCSS', 'Shadcn UI', 'Magic UI'],
+			description:
+				'FeedbackIQ is a comprehensive survey platform designed specifically for businesses to create, distribute, and analyze customer feedback with AI-powered insights.',
+			technologies: [
+				'Next.js',
+				'TypeScript',
+				'PostgreSQL',
+				'Supabase',
+				'TailwindCSS',
+				'Shadcn UI',
+				'Magic UI'
+			],
 			liveUrl: 'https://feedbackiq-smart.vercel.app/',
 			githubUrl: 'https://github.com/yourusername/feedbackiq',
 			imageUrl: '/src/lib/assets/feed.png'
@@ -15,19 +24,30 @@
 		{
 			id: '2',
 			title: 'Opoos',
-			description: 'Opoos is a comprehensive internal tool designed specifically for sales teams and project managers to streamline the proposal and quotation workflow for website development projects.',
-			technologies: ['Next.js', 'TypeScript', 'Supabase', 'TailwindCSS', 'Shadcn UI', 'Magic UI', 'OpenAI', 'n8n'],
+			description:
+				'Opoos is a comprehensive internal tool designed specifically for sales teams and project managers to streamline the proposal and quotation workflow for website development projects.',
+			technologies: [
+				'Next.js',
+				'TypeScript',
+				'Supabase',
+				'TailwindCSS',
+				'Shadcn UI',
+				'Magic UI',
+				'OpenAI',
+				'n8n'
+			],
 			liveUrl: 'https://opoos.vercel.app/',
 			githubUrl: 'https://github.com/yourusername/opoos',
 			imageUrl: '/src/lib/assets/opoos.png'
-		},
+		}
 	];
 
 	const svelteKitProjects: Project[] = [
 		{
 			id: 'svelte-1',
 			title: 'Todo App',
-			description: 'A simple todo application with add, edit, delete, and filter functionality. Perfect for learning Svelte state management.',
+			description:
+				'A simple todo application with add, edit, delete, and filter functionality. Perfect for learning Svelte state management.',
 			technologies: ['Svelte 5', 'TypeScript', 'Tailwind CSS'],
 			liveUrl: 'https://sv-task.vercel.app/',
 			githubUrl: 'https://github.com/devmarked/sv-task',
@@ -36,17 +56,18 @@
 		{
 			id: 'svelte-2',
 			title: 'Weather Dashboard',
-			description: 'Real-time weather information with location search and forecasts. Shows Svelte reactivity in action.',
+			description:
+				'Real-time weather information with location search and forecasts. Shows Svelte reactivity in action.',
 			technologies: ['Svelte 5', 'TypeScript', 'OpenWeather API', 'Tailwind CSS'],
 			liveUrl: 'https://sv-weather-five.vercel.app/',
 			githubUrl: 'https://github.com/devmarked/sv-weather',
 			imageUrl: '/src/lib/assets/weather.png'
-			
 		},
 		{
 			id: 'svelte-3',
 			title: 'Chat',
-			description: 'Real-time chat application with rooms and message history. Demonstrates WebSocket integration.',
+			description:
+				'Real-time chat application with rooms and message history. Demonstrates WebSocket integration.',
 			technologies: ['Svelte 5', 'TypeScript', 'Tailwind CSS'],
 			liveUrl: 'https://sv-chat.vercel.app/',
 			githubUrl: 'https://github.com/devmarked/sv-chat',
@@ -55,7 +76,8 @@
 		{
 			id: 'svelte-4',
 			title: 'Voting',
-			description: 'Interactive voting system with real-time updates. Shows advanced SvelteKit patterns.',
+			description:
+				'Interactive voting system with real-time updates. Shows advanced SvelteKit patterns.',
 			technologies: ['SvelteKit', 'WebSockets', 'TypeScript', 'Tailwind CSS'],
 			liveUrl: 'https://sv-voting.vercel.app/',
 			githubUrl: 'https://github.com/devmarked/sv-voting',
@@ -64,7 +86,8 @@
 		{
 			id: 'svelte-5',
 			title: 'Blog',
-			description: 'Simple blog application with markdown support and post management. Clean Svelte implementation.',
+			description:
+				'Simple blog application with markdown support and post management. Clean Svelte implementation.',
 			technologies: ['Svelte 5', 'TypeScript', 'Tailwind CSS'],
 			liveUrl: 'https://sv-md-blog.vercel.app/',
 			githubUrl: 'https://github.com/devmarked/sv-md-blog',
@@ -73,8 +96,17 @@
 		{
 			id: 'svelte-6',
 			title: 'DoodleMation',
-			description: 'Transform static images into dynamic animated videos using AI-powered generation.',
-			technologies: ['Svelte 5', 'TypeScript', 'Tailwind CSS', 'OpenAI', 'Hailou API', 'Supabase', 'Vercel'],
+			description:
+				'Transform static images into dynamic animated videos using AI-powered generation.',
+			technologies: [
+				'Svelte 5',
+				'TypeScript',
+				'Tailwind CSS',
+				'OpenAI',
+				'Hailou API',
+				'Supabase',
+				'Vercel'
+			],
 			liveUrl: 'https://doodlemation.vercel.app/',
 			githubUrl: 'https://github.com/devmarked/doodlemation',
 			imageUrl: '/src/lib/assets/doodle.png'
@@ -88,7 +120,7 @@
 
 <Hero />
 <section id="work-history">
-<WorkHistory />
+	<WorkHistory />
 </section>
 
 <!-- Demo Projects Section -->
@@ -96,11 +128,10 @@
 	<div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
 		<!-- Section Header -->
 		<div class="mx-auto max-w-2xl text-center">
-			<h2 class="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">
-				Demo Projects
-			</h2>
+			<h2 class="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">Demo Projects</h2>
 			<p class="mt-4 text-lg text-gray-600">
-				A collection of demo projects built with Next.js showcasing a range of web development concepts, from simple UI components to more complex full-stack applications.
+				A collection of demo projects built with Next.js showcasing a range of web development
+				concepts, from simple UI components to more complex full-stack applications.
 			</p>
 		</div>
 
@@ -129,8 +160,8 @@
 				Svelte Demo Projects
 			</h2>
 			<p class="mt-4 text-lg text-gray-600">
-				Hands-on Svelte and SvelteKit projects demonstrating core concepts,
-				from basic components to advanced real-time applications.
+				Hands-on Svelte and SvelteKit projects demonstrating core concepts, from basic components to
+				advanced real-time applications.
 			</p>
 		</div>
 

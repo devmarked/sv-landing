@@ -7,4 +7,3 @@ export interface Project {
 	githubUrl?: string;
 	imageUrl?: string;
 }
-

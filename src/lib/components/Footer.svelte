@@ -1,6 +1,6 @@
 <script lang="ts">
 	const currentYear = new Date().getFullYear();
-	
+
 	// Smooth scroll to work history section
 	function scrollToWorkHistory(e: MouseEvent) {
 		e.preventDefault();
@@ -21,13 +21,13 @@
 		const element = document.getElementById('svelte-projects');
 		element?.scrollIntoView({ behavior: 'smooth' });
 	}
-	
+
 	interface NavItem {
 		label: string;
 		href: string;
 		onclick?: (e: MouseEvent) => void;
 	}
-	
+
 	const footerLinks = {
 		navigation: [
 			{ label: 'Home', href: '/' },
@@ -40,8 +40,7 @@
 			{ label: 'X', href: 'https://x.com/markedcarlo', icon: 'twitter' },
 			{ label: 'LinkedIn', href: 'https://linkedin.com/mclumbayan', icon: 'linkedin' },
 			{ label: 'Youtube', href: 'https://www.youtube.com/@MarkDev-jw9zs', icon: 'youtube' },
-			{ label: 'Email', href: 'mailto:markedcarlo@gmail.com', icon: 'email' },
-
+			{ label: 'Email', href: 'mailto:markedcarlo@gmail.com', icon: 'email' }
 		]
 	};
 </script>
@@ -61,13 +60,13 @@
 
 			<!-- Navigation Links -->
 			<div class="space-y-4">
-				<h4 class="text-md font-semibold uppercase tracking-wider text-gray-900">Navigation</h4>
+				<h4 class="text-md font-semibold tracking-wider text-gray-900 uppercase">Navigation</h4>
 				<ul class="space-y-2">
 					{#each footerLinks.navigation as link}
 						<li>
 							<a
 								href={link.href}
-								class="text-md text-gray-600 hover:text-blue-600 transition-colors"
+								class="text-md text-gray-600 transition-colors hover:text-blue-600"
 								onclick={link.onclick}
 							>
 								{link.label}
@@ -79,14 +78,14 @@
 
 			<!-- Social Links -->
 			<div class="space-y-4">
-				<h4 class="text-md font-semibold uppercase tracking-wider text-gray-900">Connect</h4>
+				<h4 class="text-md font-semibold tracking-wider text-gray-900 uppercase">Connect</h4>
 				<div class="flex space-x-4">
 					{#each footerLinks.social as social}
 						<a
 							href={social.href}
 							target="_blank"
 							rel="noopener noreferrer"
-							class="text-gray-600 hover:text-blue-600 transition-colors"
+							class="text-gray-600 transition-colors hover:text-blue-600"
 							aria-label={social.label}
 						>
 							{#if social.icon === 'github'}
@@ -130,10 +129,9 @@
 
 		<!-- Bottom bar -->
 		<div class="mt-8 border-t border-gray-200 pt-8">
-			<p class="text-center text-md text-gray-600">
+			<p class="text-md text-center text-gray-600">
 				© {currentYear} MarkCarlo. Built with SvelteKit and Tailwind CSS.
 			</p>
 		</div>
 	</div>
 </footer>
-

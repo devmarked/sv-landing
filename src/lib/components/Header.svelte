@@ -1,6 +1,6 @@
 <script lang="ts">
 	import { page } from '$app/stores';
-	
+
 	let mobileMenuOpen = $state(false);
 
 	// Smooth scroll to work history section
@@ -23,13 +23,13 @@
 		const element = document.getElementById('svelte-projects');
 		element?.scrollIntoView({ behavior: 'smooth' });
 	}
-	
+
 	interface NavItem {
 		label: string;
 		href: string;
 		onclick?: (e: MouseEvent) => void;
 	}
-	
+
 	const navItems: NavItem[] = [
 		{ label: 'Home', href: '/' },
 		{ label: 'Work History', href: '/work-history', onclick: scrollToWorkHistory },
@@ -53,7 +53,7 @@
 				{#each navItems as item}
 					<a
 						href={item.href}
-						class="text-md font-medium text-gray-700 hover:text-orange-500 transition-colors"
+						class="text-md font-medium text-gray-700 transition-colors hover:text-orange-500"
 						onclick={item.onclick}
 					>
 						{item.label}
@@ -64,16 +64,11 @@
 			<!-- Mobile menu button -->
 			<div class="md:hidden">
 				<button
-					onclick={() => mobileMenuOpen = !mobileMenuOpen}
+					onclick={() => (mobileMenuOpen = !mobileMenuOpen)}
 					class="inline-flex items-center justify-center rounded-md p-2 text-gray-700 hover:bg-gray-100 hover:text-blue-600"
 					aria-label="Toggle menu"
 				>
-					<svg
-						class="h-6 w-6"
-						fill="none"
-						viewBox="0 0 24 24"
-						stroke="currentColor"
-					>
+					<svg class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
 						{#if mobileMenuOpen}
 							<path
 								stroke-linecap="round"
@@ -96,7 +91,7 @@
 
 		<!-- Mobile menu -->
 		{#if mobileMenuOpen}
-			<div class="border-t border-gray-200 pb-4 pt-4 md:hidden">
+			<div class="border-t border-gray-200 pt-4 pb-4 md:hidden">
 				<div class="space-y-1">
 					{#each navItems as item}
 						<a
@@ -115,4 +110,3 @@
 		{/if}
 	</nav>
 </header>
-
