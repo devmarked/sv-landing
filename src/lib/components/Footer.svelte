@@ -51,10 +51,10 @@
 			<!-- Brand -->
 			<div class="space-y-4">
 				<h3 class="text-xl font-bold text-gray-900">
-					<span class="text-blue-600">Svelte</span>Journey
+					<span class="text-orange-500">Mark</span>Carlo
 				</h3>
 				<p class="text-md text-gray-600">
-					Documenting my journey learning Svelte, from simple projects to complex applications.
+					Showcasing my journey from simple projects to complex applications. Explore my work, read about my experiences, and discover the projects I've built.
 				</p>
 			</div>
 
