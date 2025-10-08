@@ -9,6 +9,8 @@
 	import VotingImage from '$lib/assets/voting.png';
 	import BlogImage from '$lib/assets/blog.png';
 	import DoodleImage from '$lib/assets/doodle.png';
+	import SvPortfolioImage from '$lib/assets/sv-port.png';
+	import SenpAIImage from '$lib/assets/senpai.png';
 
 	const demoProjects: Project[] = [
 		{
@@ -25,9 +27,10 @@
 				'Shadcn UI',
 				'Magic UI'
 			],
-		liveUrl: 'https://feedbackiq-smart.vercel.app/',
-		githubUrl: 'https://github.com/devmarked/feedbackiq',
-		imageUrl: FeedImage
+			liveUrl: 'https://feedbackiq-smart.vercel.app/',
+			githubUrl: 'https://github.com/devmarked/feedbackiq',
+			videoUrl: 'https://www.youtube.com/watch?v=fkguwrMaDrM',
+			imageUrl: FeedImage
 		},
 		{
 			id: '2',
@@ -44,9 +47,10 @@
 				'OpenAI',
 				'n8n'
 			],
-		liveUrl: 'https://opoos.vercel.app/',
-		githubUrl: 'https://github.com/devmarked/opoos',
-		imageUrl: OpoosImage
+			liveUrl: 'https://opoos.vercel.app/',
+			githubUrl: 'https://github.com/devmarked/opoos',
+			videoUrl: 'https://www.youtube.com/watch?v=fh0vuEF0EV0',
+			imageUrl: OpoosImage
 		}
 	];
 
@@ -103,6 +107,16 @@
 		},
 		{
 			id: 'svelte-6',
+			title: 'Portfolio',
+			description:
+				'Simple portfolio landing page showing my projects and work history. Clean Svelte implementation.',
+		technologies: ['Svelte 5', 'TypeScript', 'Tailwind CSS'],
+		liveUrl: 'https://sv.markcarlo.space',
+		githubUrl: 'https://github.com/devmarked/sv-landing',
+		imageUrl: SvPortfolioImage
+		},
+		{
+			id: 'svelte-7',
 			title: 'DoodleMation',
 			description:
 				'Transform static images into dynamic animated videos using AI-powered generation.',
@@ -118,6 +132,22 @@
 		liveUrl: 'https://doodlemation.vercel.app/',
 		githubUrl: 'https://github.com/devmarked/doodlemation',
 		imageUrl: DoodleImage
+		},
+		{
+			id: 'svelte-8',
+			title: 'SenpAI',
+			description:
+				'Connect with expert AI mentors for personalized 1:1 sessions, project guidance, and accelerated career growth',
+			technologies: [
+				'Svelte 5',
+				'TypeScript',
+				'Tailwind CSS',
+				'Supabase',
+				'Vercel'
+			],
+		liveUrl: 'https://senpai-five.vercel.app/',
+		githubUrl: 'https://github.com/devmarked/senpai',
+		imageUrl: SenpAIImage
 		}
 	];
 </script>
@@ -152,6 +182,7 @@
 					technologies={project.technologies}
 					liveUrl={project.liveUrl}
 					githubUrl={project.githubUrl}
+					videoUrl={project.videoUrl}
 					imageUrl={project.imageUrl}
 				/>
 			{/each}
