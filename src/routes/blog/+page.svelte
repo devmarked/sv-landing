@@ -11,10 +11,10 @@
 	<div class="mx-auto max-w-4xl px-4 py-16 sm:px-6 sm:py-24 lg:px-8">
 		<!-- Main Content -->
 		<div class="text-center">
-			<!-- Icon/Illustration -->
-			<div class="mx-auto mb-8 flex h-24 w-24 items-center justify-center rounded-full bg-indigo-100">
-				<svg
-					class="h-12 w-12 text-indigo-600"
+		<!-- Icon/Illustration -->
+		<div class="mx-auto mb-8 flex h-24 w-24 items-center justify-center rounded-full bg-orange-100">
+			<svg
+				class="h-12 w-12 text-orange-500"
 					fill="none"
 					stroke="currentColor"
 					viewBox="0 0 24 24"
@@ -42,90 +42,90 @@
 
 			<!-- Feature List -->
 			<div class="mx-auto mt-12 max-w-2xl">
-				<div class="grid gap-6 sm:grid-cols-2">
-					<div class="rounded-lg bg-white p-6 shadow-sm ring-1 ring-gray-200">
-						<div class="mb-3 flex h-10 w-10 items-center justify-center rounded-lg bg-indigo-50">
-							<svg
-								class="h-6 w-6 text-indigo-600"
-								fill="none"
-								stroke="currentColor"
-								viewBox="0 0 24 24"
-							>
-								<path
-									stroke-linecap="round"
-									stroke-linejoin="round"
-									stroke-width="2"
-									d="M10 20l4-16m4 4l4 4-4 4M6 16l-4-4 4-4"
-								/>
-							</svg>
-						</div>
-						<h3 class="text-left text-lg font-semibold text-gray-900">Code Tutorials</h3>
+			<div class="grid gap-6 sm:grid-cols-2">
+				<div class="rounded-lg bg-white p-6 shadow-sm ring-1 ring-gray-200">
+					<div class="mb-3 flex h-10 w-10 items-center justify-center rounded-lg bg-orange-50">
+						<svg
+							class="h-6 w-6 text-orange-500"
+							fill="none"
+							stroke="currentColor"
+							viewBox="0 0 24 24"
+						>
+							<path
+								stroke-linecap="round"
+								stroke-linejoin="round"
+								stroke-width="2"
+								d="M10 20l4-16m4 4l4 4-4 4M6 16l-4-4 4-4"
+							/>
+						</svg>
+					</div>
+					<h3 class="text-left text-lg font-semibold text-gray-900">Code Tutorials</h3>
 						<p class="mt-2 text-left text-sm text-gray-600">
 							Step-by-step guides on building with SvelteKit and modern web technologies
 						</p>
 					</div>
 
-					<div class="rounded-lg bg-white p-6 shadow-sm ring-1 ring-gray-200">
-						<div class="mb-3 flex h-10 w-10 items-center justify-center rounded-lg bg-indigo-50">
-							<svg
-								class="h-6 w-6 text-indigo-600"
-								fill="none"
-								stroke="currentColor"
-								viewBox="0 0 24 24"
-							>
-								<path
-									stroke-linecap="round"
-									stroke-linejoin="round"
-									stroke-width="2"
-									d="M9.663 17h4.673M12 3v1m6.364 1.636l-.707.707M21 12h-1M4 12H3m3.343-5.657l-.707-.707m2.828 9.9a5 5 0 117.072 0l-.548.547A3.374 3.374 0 0014 18.469V19a2 2 0 11-4 0v-.531c0-.895-.356-1.754-.988-2.386l-.548-.547z"
-								/>
-							</svg>
-						</div>
-						<h3 class="text-left text-lg font-semibold text-gray-900">Best Practices</h3>
+				<div class="rounded-lg bg-white p-6 shadow-sm ring-1 ring-gray-200">
+					<div class="mb-3 flex h-10 w-10 items-center justify-center rounded-lg bg-orange-50">
+						<svg
+							class="h-6 w-6 text-orange-500"
+							fill="none"
+							stroke="currentColor"
+							viewBox="0 0 24 24"
+						>
+							<path
+								stroke-linecap="round"
+								stroke-linejoin="round"
+								stroke-width="2"
+								d="M9.663 17h4.673M12 3v1m6.364 1.636l-.707.707M21 12h-1M4 12H3m3.343-5.657l-.707-.707m2.828 9.9a5 5 0 117.072 0l-.548.547A3.374 3.374 0 0014 18.469V19a2 2 0 11-4 0v-.531c0-.895-.356-1.754-.988-2.386l-.548-.547z"
+							/>
+						</svg>
+					</div>
+					<h3 class="text-left text-lg font-semibold text-gray-900">Best Practices</h3>
 						<p class="mt-2 text-left text-sm text-gray-600">
 							Insights and patterns learned from real-world projects
 						</p>
 					</div>
 
-					<div class="rounded-lg bg-white p-6 shadow-sm ring-1 ring-gray-200">
-						<div class="mb-3 flex h-10 w-10 items-center justify-center rounded-lg bg-indigo-50">
-							<svg
-								class="h-6 w-6 text-indigo-600"
-								fill="none"
-								stroke="currentColor"
-								viewBox="0 0 24 24"
-							>
-								<path
-									stroke-linecap="round"
-									stroke-linejoin="round"
-									stroke-width="2"
-									d="M13 10V3L4 14h7v7l9-11h-7z"
-								/>
-							</svg>
-						</div>
-						<h3 class="text-left text-lg font-semibold text-gray-900">Quick Tips</h3>
+				<div class="rounded-lg bg-white p-6 shadow-sm ring-1 ring-gray-200">
+					<div class="mb-3 flex h-10 w-10 items-center justify-center rounded-lg bg-orange-50">
+						<svg
+							class="h-6 w-6 text-orange-500"
+							fill="none"
+							stroke="currentColor"
+							viewBox="0 0 24 24"
+						>
+							<path
+								stroke-linecap="round"
+								stroke-linejoin="round"
+								stroke-width="2"
+								d="M13 10V3L4 14h7v7l9-11h-7z"
+							/>
+						</svg>
+					</div>
+					<h3 class="text-left text-lg font-semibold text-gray-900">Quick Tips</h3>
 						<p class="mt-2 text-left text-sm text-gray-600">
 							Short, actionable tips to improve your development workflow
 						</p>
 					</div>
 
-					<div class="rounded-lg bg-white p-6 shadow-sm ring-1 ring-gray-200">
-						<div class="mb-3 flex h-10 w-10 items-center justify-center rounded-lg bg-indigo-50">
-							<svg
-								class="h-6 w-6 text-indigo-600"
-								fill="none"
-								stroke="currentColor"
-								viewBox="0 0 24 24"
-							>
-								<path
-									stroke-linecap="round"
-									stroke-linejoin="round"
-									stroke-width="2"
-									d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"
-								/>
-							</svg>
-						</div>
-						<h3 class="text-left text-lg font-semibold text-gray-900">Learning Journey</h3>
+				<div class="rounded-lg bg-white p-6 shadow-sm ring-1 ring-gray-200">
+					<div class="mb-3 flex h-10 w-10 items-center justify-center rounded-lg bg-orange-50">
+						<svg
+							class="h-6 w-6 text-orange-500"
+							fill="none"
+							stroke="currentColor"
+							viewBox="0 0 24 24"
+						>
+							<path
+								stroke-linecap="round"
+								stroke-linejoin="round"
+								stroke-width="2"
+								d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"
+							/>
+						</svg>
+					</div>
+					<h3 class="text-left text-lg font-semibold text-gray-900">Learning Journey</h3>
 						<p class="mt-2 text-left text-sm text-gray-600">
 							Personal experiences and lessons learned throughout my development path
 						</p>
@@ -133,17 +133,17 @@
 				</div>
 			</div>
 
-			<!-- CTA Section -->
-			<div class="mt-16">
-				<div class="rounded-2xl bg-indigo-50 px-6 py-8 sm:px-12">
-					<h3 class="text-xl font-semibold text-gray-900">Want to be notified?</h3>
-					<p class="mt-2 text-gray-600">
-						In the meantime, check out my projects to see what I've been building!
-					</p>
-					<div class="mt-6">
-						<a
-							href="/"
-							class="inline-flex items-center rounded-lg bg-indigo-600 px-6 py-3 text-base font-semibold text-white shadow-sm transition-colors hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-indigo-600 focus:ring-offset-2"
+		<!-- CTA Section -->
+		<div class="mt-16">
+			<div class="rounded-2xl bg-orange-50 px-6 py-8 sm:px-12">
+				<h3 class="text-xl font-semibold text-gray-900">Want to be notified?</h3>
+				<p class="mt-2 text-gray-600">
+					In the meantime, check out my projects to see what I've been building!
+				</p>
+				<div class="mt-6">
+					<a
+						href="/"
+						class="inline-flex items-center rounded-lg bg-orange-500 px-6 py-3 text-base font-semibold text-white shadow-sm transition-colors hover:bg-orange-600 focus:outline-none focus:ring-2 focus:ring-orange-500 focus:ring-offset-2"
 						>
 							View Projects
 							<svg
