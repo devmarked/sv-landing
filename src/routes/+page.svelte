@@ -60,7 +60,7 @@
 			title: 'Todo App',
 			description:
 				'A simple todo application with add, edit, delete, and filter functionality. Perfect for learning Svelte state management.',
-		technologies: ['Svelte 5', 'TypeScript', 'Tailwind CSS'],
+		technologies: ['SvelteKit', 'TypeScript', 'Tailwind CSS'],
 		liveUrl: 'https://sv-task.vercel.app/',
 		githubUrl: 'https://github.com/devmarked/sv-task',
 		imageUrl: TaskImage
@@ -70,7 +70,7 @@
 			title: 'Weather Dashboard',
 			description:
 				'Real-time weather information with location search and forecasts. Shows Svelte reactivity in action.',
-		technologies: ['Svelte 5', 'TypeScript', 'OpenWeather API', 'Tailwind CSS'],
+		technologies: ['SvelteKit', 'TypeScript', 'OpenWeather API', 'Tailwind CSS'],
 		liveUrl: 'https://sv-weather-five.vercel.app/',
 		githubUrl: 'https://github.com/devmarked/sv-weather',
 		imageUrl: WeatherImage
@@ -80,7 +80,7 @@
 			title: 'Chat',
 			description:
 				'Real-time chat application with rooms and message history. Demonstrates WebSocket integration.',
-		technologies: ['Svelte 5', 'TypeScript', 'Tailwind CSS'],
+		technologies: ['SvelteKit', 'TypeScript', 'Tailwind CSS'],
 		liveUrl: 'https://sv-chat.vercel.app/',
 		githubUrl: 'https://github.com/devmarked/sv-chat',
 		imageUrl: ChatImage
@@ -100,7 +100,7 @@
 			title: 'Blog',
 			description:
 				'Simple blog application with markdown support and post management. Clean Svelte implementation.',
-		technologies: ['Svelte 5', 'TypeScript', 'Tailwind CSS'],
+		technologies: ['SvelteKit', 'TypeScript', 'Tailwind CSS'],
 		liveUrl: 'https://sv-md-blog.vercel.app/',
 		githubUrl: 'https://github.com/devmarked/sv-md-blog',
 		imageUrl: BlogImage
@@ -110,7 +110,7 @@
 			title: 'Portfolio',
 			description:
 				'Simple portfolio landing page showing my projects and work history. Clean Svelte implementation.',
-		technologies: ['Svelte 5', 'TypeScript', 'Tailwind CSS'],
+		technologies: ['SvelteKit', 'TypeScript', 'Tailwind CSS'],
 		liveUrl: 'https://sv.markcarlo.space',
 		githubUrl: 'https://github.com/devmarked/sv-landing',
 		imageUrl: SvPortfolioImage
@@ -121,7 +121,7 @@
 			description:
 				'Transform static images into dynamic animated videos using AI-powered generation.',
 			technologies: [
-				'Svelte 5',
+				'SvelteKit',
 				'TypeScript',
 				'Tailwind CSS',
 				'OpenAI',
@@ -139,7 +139,7 @@
 			description:
 				'Connect with expert AI mentors for personalized 1:1 sessions, project guidance, and accelerated career growth',
 			technologies: [
-				'Svelte 5',
+				'SvelteKit',
 				'TypeScript',
 				'Tailwind CSS',
 				'Supabase',
